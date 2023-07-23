@@ -1,0 +1,29 @@
+type: matching
+captions:
+- fun
+- main
+- "println(\"Hello, World!\")"
+- "\"Hello, World!\""
+options:
+- statement
+- literal
+- keyword
+- name
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4366#comment
+status: Solved
+record: -1
+ordering:
+- 0
+- 1
+- 2
+- 3

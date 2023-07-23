@@ -1,0 +1,29 @@
+type: matching
+captions:
+- keyword
+- name
+- statement
+- comment
+options:
+- is a word written by a programmer that identifies an entity in a program
+- is a special text ignored by Kotlin
+- is a single action
+- is a word that has a special meaning in the programming language
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4365#comment
+status: Solved
+record: -1
+ordering:
+- 0
+- 1
+- 2
+- 3
